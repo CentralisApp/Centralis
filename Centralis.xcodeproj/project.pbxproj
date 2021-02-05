@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		531870D1257968BD000191FD /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531870D0257968BD000191FD /* TextViewController.swift */; };
+		5319692F257BC8A70056BF51 /* CarouselController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5319692E257BC8A70056BF51 /* CarouselController.swift */; };
+		53243436257828A300875BAD /* TextViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53243434257828A200875BAD /* TextViewCell.swift */; };
+		53243437257828A300875BAD /* TextViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53243435257828A200875BAD /* TextViewCell.xib */; };
+		53874502257BD61800174D07 /* CarouselContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53874501257BD61800174D07 /* CarouselContainerController.swift */; };
+		53874506257BD7AD00174D07 /* HomeworkTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53874505257BD7AD00174D07 /* HomeworkTableViewController.xib */; };
+		53874509257BD7D600174D07 /* HomeworkTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53874508257BD7D500174D07 /* HomeworkTableViewController.swift */; };
+		5387450E257BDB7100174D07 /* HomeworkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5387450C257BDB7100174D07 /* HomeworkCell.swift */; };
+		5387450F257BDB7100174D07 /* HomeworkCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5387450D257BDB7100174D07 /* HomeworkCell.xib */; };
+		53874512257BDCD400174D07 /* NSMutableAttributedString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53874511257BDCD300174D07 /* NSMutableAttributedString+Extension.swift */; };
+		53874526257C1EB100174D07 /* HomeworkDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53874525257C1EB000174D07 /* HomeworkDetailView.xib */; };
+		5387452E257C205500174D07 /* HomeworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5387452D257C205500174D07 /* HomeworkDetailView.swift */; };
+		53CA2DEE2576CC9E00E3A02B /* LoginCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CA2DEC2576CC9D00E3A02B /* LoginCell.swift */; };
+		53CA2DEF2576CC9E00E3A02B /* LoginCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53CA2DED2576CC9D00E3A02B /* LoginCell.xib */; };
+		53CA2DF32576D67A00E3A02B /* WorkingCover.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53CA2DF22576D67900E3A02B /* WorkingCover.xib */; };
+		53CA2DF62576D69A00E3A02B /* WorkingCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CA2DF52576D69A00E3A02B /* WorkingCover.swift */; };
+		53CA2DFC2576DA5800E3A02B /* HomeMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CA2DFA2576DA5700E3A02B /* HomeMenuCell.swift */; };
+		53CA2DFD2576DA5900E3A02B /* HomeMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53CA2DFB2576DA5700E3A02B /* HomeMenuCell.xib */; };
+		53CA2E012576DD2A00E3A02B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CA2E002576DD2A00E3A02B /* HomeViewController.swift */; };
+		53CB50722572D1780077DDAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CB50712572D1780077DDAE /* AppDelegate.swift */; };
+		53CB50792572D1780077DDAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53CB50772572D1780077DDAE /* Main.storyboard */; };
+		53CB507B2572D1880077DDAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53CB507A2572D1880077DDAE /* Assets.xcassets */; };
+		53CB507E2572D1880077DDAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53CB507C2572D1880077DDAE /* LaunchScreen.storyboard */; };
+		53CB509A2572D7C40077DDAE /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CB50992572D7C40077DDAE /* UIView+Extensions.swift */; };
+		53CB509D2572D9300077DDAE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CB509C2572D92F0077DDAE /* LoginViewController.swift */; };
+		53CB50A12572F0B50077DDAE /* ResizedTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CB50A02572F0B50077DDAE /* ResizedTableView.swift */; };
+		E10A5B25259BE4F300FA8BD0 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10A5B23259BE4F300FA8BD0 /* ErrorView.swift */; };
+		E10A5B26259BE4F300FA8BD0 /* ErrorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E10A5B24259BE4F300FA8BD0 /* ErrorView.xib */; };
+		E1305DA3259BEFDD00AB3119 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1305DA2259BEFDD00AB3119 /* UIButton+Extension.swift */; };
+		E1508BDF25CACA2700685E3C /* libCentralis in Frameworks */ = {isa = PBXBuildFile; productRef = E1508BDE25CACA2700685E3C /* libCentralis */; };
+		E1576054258BB68000DD496F /* AmyChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1576053258BB68000DD496F /* AmyChart.swift */; };
+		E1576058258BBD8E00DD496F /* ChartTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1576057258BBD8E00DD496F /* ChartTableViewController.xib */; };
+		E157605B258BBDE700DD496F /* ChartTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E157605A258BBDE700DD496F /* ChartTableViewController.swift */; };
+		E1576060258BF56B00DD496F /* AmyChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E157605E258BF56B00DD496F /* AmyChartCell.swift */; };
+		E1576061258BF56B00DD496F /* AmyChartCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E157605F258BF56B00DD496F /* AmyChartCell.xib */; };
+		E1768305259A7EAE0099BB92 /* NewUserSchoolController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1768304259A7EAE0099BB92 /* NewUserSchoolController.swift */; };
+		E1768308259A8C7A0099BB92 /* NewUserUPController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1768307259A8C7A0099BB92 /* NewUserUPController.swift */; };
+		E1845F1825BDE22E002B1950 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1845F1725BDE22E002B1950 /* WebKit.framework */; };
+		E19B2F5B258D71CE00930AE1 /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19B2F5A258D71CE00930AE1 /* Double+Extensions.swift */; };
+		E1C8FD73258165BD0006F36F /* EmbeddedTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1C8FD72258165BD0006F36F /* EmbeddedTableViewController.xib */; };
+		E1C8FD76258166210006F36F /* EmbeddedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C8FD75258166210006F36F /* EmbeddedTableViewController.swift */; };
+		E1F9A49825850F6000CEA071 /* DocumentWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F9A49725850F6000CEA071 /* DocumentWebViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		531870D0257968BD000191FD /* TextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
+		5319692E257BC8A70056BF51 /* CarouselController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselController.swift; sourceTree = "<group>"; };
+		53243434257828A200875BAD /* TextViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewCell.swift; sourceTree = "<group>"; };
+		53243435257828A200875BAD /* TextViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextViewCell.xib; sourceTree = "<group>"; };
+		53874501257BD61800174D07 /* CarouselContainerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselContainerController.swift; sourceTree = "<group>"; };
+		53874505257BD7AD00174D07 /* HomeworkTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeworkTableViewController.xib; sourceTree = "<group>"; };
+		53874508257BD7D500174D07 /* HomeworkTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworkTableViewController.swift; sourceTree = "<group>"; };
+		5387450C257BDB7100174D07 /* HomeworkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworkCell.swift; sourceTree = "<group>"; };
+		5387450D257BDB7100174D07 /* HomeworkCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeworkCell.xib; sourceTree = "<group>"; };
+		53874511257BDCD300174D07 /* NSMutableAttributedString+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSMutableAttributedString+Extension.swift"; sourceTree = "<group>"; };
+		53874525257C1EB000174D07 /* HomeworkDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeworkDetailView.xib; sourceTree = "<group>"; };
+		5387452D257C205500174D07 /* HomeworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworkDetailView.swift; sourceTree = "<group>"; };
+		53874530257C333800174D07 /* Centralis.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Centralis.entitlements; sourceTree = "<group>"; };
+		53CA2DEC2576CC9D00E3A02B /* LoginCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCell.swift; sourceTree = "<group>"; };
+		53CA2DED2576CC9D00E3A02B /* LoginCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginCell.xib; sourceTree = "<group>"; };
+		53CA2DF22576D67900E3A02B /* WorkingCover.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WorkingCover.xib; sourceTree = "<group>"; };
+		53CA2DF52576D69A00E3A02B /* WorkingCover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingCover.swift; sourceTree = "<group>"; };
+		53CA2DFA2576DA5700E3A02B /* HomeMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMenuCell.swift; sourceTree = "<group>"; };
+		53CA2DFB2576DA5700E3A02B /* HomeMenuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeMenuCell.xib; sourceTree = "<group>"; };
+		53CA2E002576DD2A00E3A02B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		53CB506E2572D1780077DDAE /* Centralis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Centralis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53CB50712572D1780077DDAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		53CB50782572D1780077DDAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53CB507A2572D1880077DDAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53CB507D2572D1880077DDAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53CB507F2572D1880077DDAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53CB50992572D7C40077DDAE /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		53CB509C2572D92F0077DDAE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		53CB50A02572F0B50077DDAE /* ResizedTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizedTableView.swift; sourceTree = "<group>"; };
+		E10A5B23259BE4F300FA8BD0 /* ErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		E10A5B24259BE4F300FA8BD0 /* ErrorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ErrorView.xib; sourceTree = "<group>"; };
+		E1305DA2259BEFDD00AB3119 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		E1576053258BB68000DD496F /* AmyChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmyChart.swift; sourceTree = "<group>"; };
+		E1576057258BBD8E00DD496F /* ChartTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChartTableViewController.xib; sourceTree = "<group>"; };
+		E157605A258BBDE700DD496F /* ChartTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartTableViewController.swift; sourceTree = "<group>"; };
+		E157605E258BF56B00DD496F /* AmyChartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmyChartCell.swift; sourceTree = "<group>"; };
+		E157605F258BF56B00DD496F /* AmyChartCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AmyChartCell.xib; sourceTree = "<group>"; };
+		E1768304259A7EAE0099BB92 /* NewUserSchoolController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserSchoolController.swift; sourceTree = "<group>"; };
+		E1768307259A8C7A0099BB92 /* NewUserUPController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserUPController.swift; sourceTree = "<group>"; };
+		E1845F1725BDE22E002B1950 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		E1845F1E25BDE3B6002B1950 /* libCentralis */ = {isa = PBXFileReference; lastKnownFileType = folder; name = libCentralis; path = ../libCentralis; sourceTree = "<group>"; };
+		E1845F1F25BDE3BC002B1950 /* libCentralis */ = {isa = PBXFileReference; lastKnownFileType = folder; name = libCentralis; path = ../libCentralis; sourceTree = "<group>"; };
+		E1845F2025BDE3C0002B1950 /* libCentralis */ = {isa = PBXFileReference; lastKnownFileType = folder; name = libCentralis; path = ../libCentralis; sourceTree = "<group>"; };
+		E19B2F5A258D71CE00930AE1 /* Double+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
+		E1C8FD72258165BD0006F36F /* EmbeddedTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmbeddedTableViewController.xib; sourceTree = "<group>"; };
+		E1C8FD75258166210006F36F /* EmbeddedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbeddedTableViewController.swift; sourceTree = "<group>"; };
+		E1F9A49725850F6000CEA071 /* DocumentWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentWebViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53CB506B2572D1780077DDAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1508BDF25CACA2700685E3C /* libCentralis in Frameworks */,
+				E1845F1825BDE22E002B1950 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53196929257BC83E0056BF51 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				53CB509F2572F07A0077DDAE /* ResizedTableView */,
+				53CB509C2572D92F0077DDAE /* LoginViewController.swift */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		5319692B257BC84A0056BF51 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				53CA2E002576DD2A00E3A02B /* HomeViewController.swift */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		5319692C257BC8560056BF51 /* TextViewController */ = {
+			isa = PBXGroup;
+			children = (
+				531870D0257968BD000191FD /* TextViewController.swift */,
+			);
+			path = TextViewController;
+			sourceTree = "<group>";
+		};
+		5319692D257BC8610056BF51 /* HomeworkController */ = {
+			isa = PBXGroup;
+			children = (
+				53874505257BD7AD00174D07 /* HomeworkTableViewController.xib */,
+				53874508257BD7D500174D07 /* HomeworkTableViewController.swift */,
+				5387452D257C205500174D07 /* HomeworkDetailView.swift */,
+				53874525257C1EB000174D07 /* HomeworkDetailView.xib */,
+			);
+			path = HomeworkController;
+			sourceTree = "<group>";
+		};
+		532434332578288500875BAD /* TextViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				53243434257828A200875BAD /* TextViewCell.swift */,
+				53243435257828A200875BAD /* TextViewCell.xib */,
+			);
+			path = TextViewCell;
+			sourceTree = "<group>";
+		};
+		5387450B257BDB5300174D07 /* HomeworkCell */ = {
+			isa = PBXGroup;
+			children = (
+				5387450C257BDB7100174D07 /* HomeworkCell.swift */,
+				5387450D257BDB7100174D07 /* HomeworkCell.xib */,
+			);
+			path = HomeworkCell;
+			sourceTree = "<group>";
+		};
+		53CA2DEA2576CC4300E3A02B /* Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E157605D258BF54C00DD496F /* AmyChartCell */,
+				5387450B257BDB5300174D07 /* HomeworkCell */,
+				532434332578288500875BAD /* TextViewCell */,
+				53CA2DEB2576CC4B00E3A02B /* LoginCell */,
+			);
+			path = "Table Cells";
+			sourceTree = "<group>";
+		};
+		53CA2DEB2576CC4B00E3A02B /* LoginCell */ = {
+			isa = PBXGroup;
+			children = (
+				53CA2DEC2576CC9D00E3A02B /* LoginCell.swift */,
+				53CA2DED2576CC9D00E3A02B /* LoginCell.xib */,
+			);
+			path = LoginCell;
+			sourceTree = "<group>";
+		};
+		53CA2DF12576D65E00E3A02B /* WorkingCover */ = {
+			isa = PBXGroup;
+			children = (
+				53CA2DF22576D67900E3A02B /* WorkingCover.xib */,
+				53CA2DF52576D69A00E3A02B /* WorkingCover.swift */,
+			);
+			path = WorkingCover;
+			sourceTree = "<group>";
+		};
+		53CA2DF82576DA2F00E3A02B /* Collection View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				53CA2DF92576DA3500E3A02B /* Home Menu Cell */,
+			);
+			path = "Collection View Cells";
+			sourceTree = "<group>";
+		};
+		53CA2DF92576DA3500E3A02B /* Home Menu Cell */ = {
+			isa = PBXGroup;
+			children = (
+				53CA2DFA2576DA5700E3A02B /* HomeMenuCell.swift */,
+				53CA2DFB2576DA5700E3A02B /* HomeMenuCell.xib */,
+			);
+			path = "Home Menu Cell";
+			sourceTree = "<group>";
+		};
+		53CB50652572D1770077DDAE = {
+			isa = PBXGroup;
+			children = (
+				53CB50702572D1780077DDAE /* Centralis */,
+				53CB506F2572D1780077DDAE /* Products */,
+				E1845F1625BDE22E002B1950 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		53CB506F2572D1780077DDAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53CB506E2572D1780077DDAE /* Centralis.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53CB50702572D1780077DDAE /* Centralis */ = {
+			isa = PBXGroup;
+			children = (
+				53CB50952572D79E0077DDAE /* Extensions */,
+				53CB508F2572D6850077DDAE /* Views */,
+				53CB508E2572D6800077DDAE /* View Controllers */,
+				53CB508B2572D60E0077DDAE /* Storyboards */,
+				53CB508A2572D59C0077DDAE /* Resources */,
+				53CB50872572D5790077DDAE /* Delegates */,
+			);
+			path = Centralis;
+			sourceTree = "<group>";
+		};
+		53CB50872572D5790077DDAE /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				53CB50712572D1780077DDAE /* AppDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		53CB508A2572D59C0077DDAE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				53874530257C333800174D07 /* Centralis.entitlements */,
+				53CB507F2572D1880077DDAE /* Info.plist */,
+				53CB507A2572D1880077DDAE /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		53CB508B2572D60E0077DDAE /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				53CB507C2572D1880077DDAE /* LaunchScreen.storyboard */,
+				53CB50772572D1780077DDAE /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		53CB508E2572D6800077DDAE /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E1768303259A7D530099BB92 /* NewUserControllers */,
+				E1F9A49625850F3D00CEA071 /* DocumentWebViewController */,
+				E180E9C32580115100ABFE69 /* CarouselViewControllers */,
+				E180E9C22580104800ABFE69 /* CarouselContainer */,
+				5319692C257BC8560056BF51 /* TextViewController */,
+				5319692B257BC84A0056BF51 /* HomeViewController */,
+				53196929257BC83E0056BF51 /* LoginViewController */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		53CB508F2572D6850077DDAE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				53CA2DF82576DA2F00E3A02B /* Collection View Cells */,
+				53CA2DEA2576CC4300E3A02B /* Table Cells */,
+				53CB50902572D69A0077DDAE /* Views */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		53CB50902572D69A0077DDAE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E10A5B22259BE4F200FA8BD0 /* ErrorView */,
+				E1576052258BB65D00DD496F /* AmyChart */,
+				53CA2DF12576D65E00E3A02B /* WorkingCover */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		53CB50952572D79E0077DDAE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				53CB50992572D7C40077DDAE /* UIView+Extensions.swift */,
+				53874511257BDCD300174D07 /* NSMutableAttributedString+Extension.swift */,
+				E19B2F5A258D71CE00930AE1 /* Double+Extensions.swift */,
+				E1305DA2259BEFDD00AB3119 /* UIButton+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		53CB509F2572F07A0077DDAE /* ResizedTableView */ = {
+			isa = PBXGroup;
+			children = (
+				53CB50A02572F0B50077DDAE /* ResizedTableView.swift */,
+			);
+			path = ResizedTableView;
+			sourceTree = "<group>";
+		};
+		E10A5B22259BE4F200FA8BD0 /* ErrorView */ = {
+			isa = PBXGroup;
+			children = (
+				E10A5B23259BE4F300FA8BD0 /* ErrorView.swift */,
+				E10A5B24259BE4F300FA8BD0 /* ErrorView.xib */,
+			);
+			path = ErrorView;
+			sourceTree = "<group>";
+		};
+		E1576052258BB65D00DD496F /* AmyChart */ = {
+			isa = PBXGroup;
+			children = (
+				E1576053258BB68000DD496F /* AmyChart.swift */,
+			);
+			path = AmyChart;
+			sourceTree = "<group>";
+		};
+		E1576056258BBD7500DD496F /* ChartTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E1576057258BBD8E00DD496F /* ChartTableViewController.xib */,
+				E157605A258BBDE700DD496F /* ChartTableViewController.swift */,
+			);
+			path = ChartTableViewController;
+			sourceTree = "<group>";
+		};
+		E157605D258BF54C00DD496F /* AmyChartCell */ = {
+			isa = PBXGroup;
+			children = (
+				E157605E258BF56B00DD496F /* AmyChartCell.swift */,
+				E157605F258BF56B00DD496F /* AmyChartCell.xib */,
+			);
+			path = AmyChartCell;
+			sourceTree = "<group>";
+		};
+		E1768303259A7D530099BB92 /* NewUserControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E1768304259A7EAE0099BB92 /* NewUserSchoolController.swift */,
+				E1768307259A8C7A0099BB92 /* NewUserUPController.swift */,
+			);
+			path = NewUserControllers;
+			sourceTree = "<group>";
+		};
+		E180E9C22580104800ABFE69 /* CarouselContainer */ = {
+			isa = PBXGroup;
+			children = (
+				53874501257BD61800174D07 /* CarouselContainerController.swift */,
+				5319692E257BC8A70056BF51 /* CarouselController.swift */,
+			);
+			path = CarouselContainer;
+			sourceTree = "<group>";
+		};
+		E180E9C32580115100ABFE69 /* CarouselViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E1576056258BBD7500DD496F /* ChartTableViewController */,
+				E1C8FD71258165790006F36F /* EmbeddedTableViewController */,
+				5319692D257BC8610056BF51 /* HomeworkController */,
+			);
+			path = CarouselViewControllers;
+			sourceTree = "<group>";
+		};
+		E1845F1625BDE22E002B1950 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1845F1E25BDE3B6002B1950 /* libCentralis */,
+				E1845F1F25BDE3BC002B1950 /* libCentralis */,
+				E1845F2025BDE3C0002B1950 /* libCentralis */,
+				E1845F1725BDE22E002B1950 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1C8FD71258165790006F36F /* EmbeddedTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E1C8FD72258165BD0006F36F /* EmbeddedTableViewController.xib */,
+				E1C8FD75258166210006F36F /* EmbeddedTableViewController.swift */,
+			);
+			path = EmbeddedTableViewController;
+			sourceTree = "<group>";
+		};
+		E1F9A49625850F3D00CEA071 /* DocumentWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E1F9A49725850F6000CEA071 /* DocumentWebViewController.swift */,
+			);
+			path = DocumentWebViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53CB506D2572D1780077DDAE /* Centralis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53CB50822572D1880077DDAE /* Build configuration list for PBXNativeTarget "Centralis" */;
+			buildPhases = (
+				53CB506A2572D1780077DDAE /* Sources */,
+				53CB506B2572D1780077DDAE /* Frameworks */,
+				53CB506C2572D1780077DDAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Centralis;
+			packageProductDependencies = (
+				E1508BDE25CACA2700685E3C /* libCentralis */,
+			);
+			productName = Centralis;
+			productReference = 53CB506E2572D1780077DDAE /* Centralis.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53CB50662572D1770077DDAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					53CB506D2572D1780077DDAE = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 53CB50692572D1770077DDAE /* Build configuration list for PBXProject "Centralis" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53CB50652572D1770077DDAE;
+			packageReferences = (
+				E1508BDD25CACA2700685E3C /* XCRemoteSwiftPackageReference "libCentralis" */,
+			);
+			productRefGroup = 53CB506F2572D1780077DDAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53CB506D2572D1780077DDAE /* Centralis */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53CB506C2572D1780077DDAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E10A5B26259BE4F300FA8BD0 /* ErrorView.xib in Resources */,
+				53874526257C1EB100174D07 /* HomeworkDetailView.xib in Resources */,
+				53CA2DEF2576CC9E00E3A02B /* LoginCell.xib in Resources */,
+				53CA2DFD2576DA5900E3A02B /* HomeMenuCell.xib in Resources */,
+				E1576061258BF56B00DD496F /* AmyChartCell.xib in Resources */,
+				53CB507E2572D1880077DDAE /* LaunchScreen.storyboard in Resources */,
+				53874506257BD7AD00174D07 /* HomeworkTableViewController.xib in Resources */,
+				E1C8FD73258165BD0006F36F /* EmbeddedTableViewController.xib in Resources */,
+				53CB507B2572D1880077DDAE /* Assets.xcassets in Resources */,
+				E1576058258BBD8E00DD496F /* ChartTableViewController.xib in Resources */,
+				53CB50792572D1780077DDAE /* Main.storyboard in Resources */,
+				5387450F257BDB7100174D07 /* HomeworkCell.xib in Resources */,
+				53243437257828A300875BAD /* TextViewCell.xib in Resources */,
+				53CA2DF32576D67A00E3A02B /* WorkingCover.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53CB506A2572D1780077DDAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53CA2DFC2576DA5800E3A02B /* HomeMenuCell.swift in Sources */,
+				53243436257828A300875BAD /* TextViewCell.swift in Sources */,
+				E1768308259A8C7A0099BB92 /* NewUserUPController.swift in Sources */,
+				E1F9A49825850F6000CEA071 /* DocumentWebViewController.swift in Sources */,
+				53CB509D2572D9300077DDAE /* LoginViewController.swift in Sources */,
+				E157605B258BBDE700DD496F /* ChartTableViewController.swift in Sources */,
+				E1305DA3259BEFDD00AB3119 /* UIButton+Extension.swift in Sources */,
+				53CA2DEE2576CC9E00E3A02B /* LoginCell.swift in Sources */,
+				E1C8FD76258166210006F36F /* EmbeddedTableViewController.swift in Sources */,
+				53CA2E012576DD2A00E3A02B /* HomeViewController.swift in Sources */,
+				E1576060258BF56B00DD496F /* AmyChartCell.swift in Sources */,
+				E1768305259A7EAE0099BB92 /* NewUserSchoolController.swift in Sources */,
+				53CB50722572D1780077DDAE /* AppDelegate.swift in Sources */,
+				53874502257BD61800174D07 /* CarouselContainerController.swift in Sources */,
+				E19B2F5B258D71CE00930AE1 /* Double+Extensions.swift in Sources */,
+				E10A5B25259BE4F300FA8BD0 /* ErrorView.swift in Sources */,
+				5319692F257BC8A70056BF51 /* CarouselController.swift in Sources */,
+				5387450E257BDB7100174D07 /* HomeworkCell.swift in Sources */,
+				53CB509A2572D7C40077DDAE /* UIView+Extensions.swift in Sources */,
+				5387452E257C205500174D07 /* HomeworkDetailView.swift in Sources */,
+				E1576054258BB68000DD496F /* AmyChart.swift in Sources */,
+				53CA2DF62576D69A00E3A02B /* WorkingCover.swift in Sources */,
+				53874512257BDCD400174D07 /* NSMutableAttributedString+Extension.swift in Sources */,
+				53CB50A12572F0B50077DDAE /* ResizedTableView.swift in Sources */,
+				53874509257BD7D600174D07 /* HomeworkTableViewController.swift in Sources */,
+				531870D1257968BD000191FD /* TextViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		53CB50772572D1780077DDAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53CB50782572D1780077DDAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		53CB507C2572D1880077DDAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53CB507D2572D1880077DDAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53CB50802572D1880077DDAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		53CB50812572D1880077DDAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53CB50832572D1880077DDAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Centralis/Resources/Centralis.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 432;
+				DEVELOPMENT_TEAM = 7J8FJX4SRX;
+				INFOPLIST_FILE = Centralis/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.centralisapp.Centralis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53CB50842572D1880077DDAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Centralis/Resources/Centralis.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 432;
+				DEVELOPMENT_TEAM = 7J8FJX4SRX;
+				GCC_OPTIMIZATION_LEVEL = fast;
+				INFOPLIST_FILE = Centralis/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.centralisapp.Centralis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53CB50692572D1770077DDAE /* Build configuration list for PBXProject "Centralis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53CB50802572D1880077DDAE /* Debug */,
+				53CB50812572D1880077DDAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53CB50822572D1880077DDAE /* Build configuration list for PBXNativeTarget "Centralis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53CB50832572D1880077DDAE /* Debug */,
+				53CB50842572D1880077DDAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E1508BDD25CACA2700685E3C /* XCRemoteSwiftPackageReference "libCentralis" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CharlieWhile13/libCentralis.git";
+			requirement = {
+				branch = uwu;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E1508BDE25CACA2700685E3C /* libCentralis */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E1508BDD25CACA2700685E3C /* XCRemoteSwiftPackageReference "libCentralis" */;
+			productName = libCentralis;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 53CB50662572D1770077DDAE /* Project object */;
+}
